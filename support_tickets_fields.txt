@@ -1,0 +1,12 @@
+Fields for Extended SupportTickets Table
+TicketID: Unique identifier for each support ticket
+ClientID: Foreign key linking to the Clients table
+EmployeeID: Foreign key linking to the Employees table (the employee who handled the ticket)
+ServiceID: Foreign key linking to the Services table (related service)
+CompanyID: Foreign key linking to the Companies table (related company)
+IssueType: Type of issue (Technical, Billing, General)
+Description: Description of the issue
+Status: Status of the ticket (Open, Closed, In Progress)
+Priority: Priority level (Low, Medium, High)
+CreatedDate: Date when the ticket was created
+ResolvedDate: Date when the ticket was resolved (if applicable)

@@ -1,0 +1,10 @@
+Fields for Extended Reviews Table
+ReviewID: Unique identifier for each review
+ClientID: Foreign key linking to the Clients table
+ServiceID: Foreign key linking to the Services table
+CompanyID: Foreign key linking to the Companies table
+Rating: Rating given by the client (out of 5)
+ReviewText: Text of the review
+ReviewDate: Date the review was posted
+HelpfulVotes: Number of helpful votes the review received
+UnhelpfulVotes: Number of unhelpful votes the review received

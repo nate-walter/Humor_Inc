@@ -1,0 +1,9 @@
+Fields for Extended Promotions Table
+PromotionID: Unique identifier for each promotion
+CompanyID: Foreign key linking to the Companies table
+ServiceID: Foreign key linking to the Services table
+StartDate: Start date of the promotion
+EndDate: End date of the promotion
+DiscountRate: Discount rate offered
+PromotionType: Type of promotion (e.g., Seasonal, Clearance, Launch)
+Active: Whether the promotion is currently active or not

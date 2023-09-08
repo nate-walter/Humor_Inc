@@ -1,0 +1,11 @@
+Fields for Extended Services Table
+ServiceID: Unique identifier for each service
+CompanyID: Foreign key linking to the Companies table
+ServiceName: Name of the service
+Price: Price of the service
+Subscription_Model: Type of subscription (One-time, Monthly, Yearly)
+Rating: Customer rating out of 5
+Discount: Discount percentage on the service
+Availability_Area: Area where the service is available (Local, National, Global)
+LaunchDate: Date the service was launched
+Category: Category of the service (Software, Hardware, Food, etc.)

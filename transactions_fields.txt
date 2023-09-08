@@ -1,0 +1,11 @@
+Fields for Extended Transactions Table
+TransactionID: Unique identifier for each transaction
+ClientID: Foreign key linking to the Clients table
+ServiceID: Foreign key linking to the Services table
+CompanyID: Foreign key linking to the Companies table
+EmployeeID: Foreign key linking to the Employees table (the employee who managed the transaction)
+TransactionDate: Date of the transaction
+Amount: Amount of the transaction
+PaymentMethod: Payment method used (Credit Card, Cash, etc.)
+DiscountApplied: Discount applied on the service
+FinalAmount: Final amount after discount

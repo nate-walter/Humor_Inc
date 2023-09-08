@@ -1,0 +1,11 @@
+Fields for Extended Subscriptions Table
+SubscriptionID: Unique identifier for each subscription
+ClientID: Foreign key linking to the Clients table
+ServiceID: Foreign key linking to the Services table
+CompanyID: Foreign key linking to the Companies table
+StartDate: Start date of the subscription
+EndDate: End date of the subscription
+AutoRenew: Whether the subscription auto-renews or not
+PaymentMethod: Payment method used for the subscription
+Amount: Monthly amount for the subscription
+Status: Status of the subscription (Active, Cancelled, Expired)

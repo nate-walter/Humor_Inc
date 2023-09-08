@@ -1,0 +1,8 @@
+Fields for Extended Inventory Table
+InventoryID: Unique identifier for each inventory record
+CompanyID: Foreign key linking to the Companies table
+ServiceID: Foreign key linking to the Services table
+StockAvailable: Number of service units available
+StockSold: Number of service units sold
+RestockDate: Date when the service units were last restocked
+StockThreshold: Minimum stock level before restocking is needed

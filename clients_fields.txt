@@ -1,0 +1,13 @@
+Fields for Extended Clients Table
+ClientID: Unique identifier for each client
+FirstName: First name of the client
+LastName: Last name of the client
+BirthDate: Birthdate of the client
+ZipCode: Zip code of the client's residence
+PhoneNumber: Phone number of the client
+Email: Email address of the client
+Occupation: Occupation of the client
+Client_Type: Type of client (Individual, Corporate)
+Last_Purchase_Date: Last date the client made a purchase
+Credit_Score: Credit score of the client
+Total_Spent: Total amount spent by the client

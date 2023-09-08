@@ -1,0 +1,13 @@
+Fields for Extended Companies Table
+CompanyID: Unique identifier for each company
+Name: Name of the company
+Description: Brief description of the company
+Industry: Industry the company belongs to
+FoundedDate: Date the company was founded
+Headquarters: Where the company is headquartered
+CEO_Name: Name of the CEO
+Revenue_Mil: Revenue in millions
+Stock_Symbol: Stock market symbol
+Employee_Count: Number of employees
+Market_Cap_Bil: Market capitalization in billions
+HQ_Country: Country where the headquarters is located
