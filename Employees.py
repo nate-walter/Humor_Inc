@@ -54,5 +54,7 @@ for i in range(0, num_records, batch_size):
         "Revenue_Generated": revenue_generated
     })
 
-    # Append batch to CSV
-    batch_df.to_csv(csv_file, mode='a', header=False, index=False)
+    # # Append batch to CSV
+    # batch_df.to_csv(csv_file, mode='a', header=False, index=False)
+
+    batch_df.head()
